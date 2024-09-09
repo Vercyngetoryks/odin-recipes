@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: green;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 10rem;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:active {
+  color: lightgreen;
+}
